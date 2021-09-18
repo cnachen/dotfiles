@@ -1,0 +1,25 @@
+# Setup personal aliases.
+if [$(command -v tree)]
+then
+    alias tree='tree -C'
+fi
+
+# Setup system environment variables.
+export EDITOR=vim
+export PROMPT='%B%F{red}%(?..%? )%f%b%B%F{red}%n%f%b@%m %1~%B%40<..<%^%<< %b%# '
+
+# Setup user environment variables.
+export RUSTUP_DIST_SERVER='https://mirrors.tuna.tsinghua.edu.cn/rustup'
+export RUSTUP_UPDATE_ROOT='https://mirrors.tuna.tsinghua.edu.cn/rustup/rustup'
+export HOMEBREW_NO_AUTO_UPDATE=true
+
+# Setup Clash terminal proxies.
+export https_proxy='http://127.0.0.1:7890'
+export http_proxy='http://127.0.0.1:7890'
+export all_proxy='socks5://127.0.0.1:7890'
+
+# Prefix of open source mirrors.
+export PREFIX_THU='https://mirrors.tuna.tsinghua.edu.cn/'
+export PREFIX_HIT='http://mirrors.hit.edu.cn/#/home'
+export PREFIX_USTC='https://mirrors.ustc.edu.cn/'
+export PREFIX_SJTU='https://mirrors.sjtug.sjtu.edu.cn/'
