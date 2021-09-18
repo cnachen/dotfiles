@@ -19,7 +19,7 @@ export http_proxy='http://127.0.0.1:7890'
 export all_proxy='socks5://127.0.0.1:7890'
 
 # Prefix of open source mirrors.
-export PREFIX_THU='https://mirrors.tuna.tsinghua.edu.cn/'
-export PREFIX_HIT='http://mirrors.hit.edu.cn/#/home'
-export PREFIX_USTC='https://mirrors.ustc.edu.cn/'
-export PREFIX_SJTU='https://mirrors.sjtug.sjtu.edu.cn/'
+export PREFIX_THU='https://mirrors.tuna.tsinghua.edu.cn'
+export PREFIX_HIT='http://mirrors.hit.edu.cn'
+export PREFIX_USTC='https://mirrors.ustc.edu.cn'
+export PREFIX_SJTU='https://mirrors.sjtug.sjtu.edu.cn'
